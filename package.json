@@ -1,0 +1,19 @@
+{
+  "name": "pptx-skill-scripts",
+  "version": "1.0.0",
+  "description": "Node.js port of the PPTX skill Python scripts (behaviour-compatible).",
+  "type": "commonjs",
+  "private": true,
+  "scripts": {
+    "test": "node scripts/test/run_tests.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.65",
+    "@xmldom/xmldom": "^0.8.10",
+    "adm-zip": "^0.5.16",
+    "canvas": "^3.2.3",
+    "pptxgenjs": "^4.0.1",
+    "xmllint-wasm": "^4.0.2",
+    "xpath": "^0.0.34"
+  }
+}
